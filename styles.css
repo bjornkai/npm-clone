@@ -1,0 +1,204 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600);
+
+body 
+{
+margin: 0; 
+padding: 0; 
+font-family: Source Sans Pro;
+}
+
+nav {
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+}
+nav a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+}
+
+.top-links {
+  float: right;
+  padding: 0;
+  margin: 0 20px 0 0;
+}
+
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+header {
+  height: 500px;
+  background-image: url("images/city-scape.svg");
+  background-color: rgb(32 101 136);
+  color: white;
+}
+
+.sign-up {
+  color: white;
+  text-decoration: none;
+}
+
+.header {
+  padding-top:15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+
+}
+.search {
+  background-color: rgb(31 82 111);
+  width: 80%;
+  padding-top: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
+
+.npm-resize {
+  height: 30px;
+  width: auto;
+}
+
+.bear-logo {
+  height: 30px;
+  width: 30px;
+  float: right;
+}
+
+.build-things{
+  width: 35%;
+  padding-top: 6%;
+  padding-left: 20%;
+  text-align: left;
+
+  
+}
+.header-link {
+  background-color: orange;
+  color: white;
+  letter-spacing: 0.5px;
+  text-align: center;
+  text-decoration: none;
+  width: 100px;
+  margin: 40px auto 0 auto;
+  padding: 10px;
+  border: none; 
+  border-radius: 20px;
+}
+
+.clearfix{
+  clear: both;
+}
+
+.npm-collab {
+  height: 500px;
+  color: white;
+  size: cover;
+  background-color: rgb(39 53 71);
+}
+
+.collab-other {
+  text-decoration: none;
+  color: white;
+}
+
+.collab-image {
+  padding-left: 20%;
+  padding-top: 10%;
+  padding-bottom: 5%;
+  padding-right: 3%;
+  width: 30%;
+  height: auto;
+  float: left;
+}
+
+.collab-text {
+  width: 35%;
+  float:left;
+  padding-top: 10%;
+}
+
+.collab-link {
+  background-color: rgb(203 56 55);
+  color: white;
+  letter-spacing: 0.5px;
+  text-align: center;
+  text-decoration: none;
+  width: 110px;
+  margin: 20px auto 0 auto;
+  padding: 10px;
+  border: none; 
+  border-radius: 20px;
+}
+
+.npm-section{
+  height: 500px;
+  background-color: rgb(32 101 136);
+  color: white;
+  background-image: url("images/forklift.svg");
+}
+
+.what-is-npm {
+  width: 35%;
+  padding-left: 20%;
+  padding-top: 10%;
+}
+
+.npm-section {
+    width: 35%;
+    padding-left: 20%;
+    padding-top: 10%;
+}
+
+  .npm-install {
+    background-color: rgb(49 68 88);
+    color: white;
+    letter-spacing: 0.5px;
+    text-align: center;
+    text-decoration: none;
+    width: 110px;
+    margin: 20px auto 0 auto;
+    padding: 10px;
+    border: none; 
+    border-radius: 20px;
+  }
+
+  #building-blocks{
+    height: 500px;
+    background: white;
+  }
+
+  h3 {
+    color: rgb(83 88 98);
+  }
+
+ .building-blocks-a{
+    text-decoration: none;
+    color: rgb(208 74 73);
+  }
+
+  .building-blocks-text{
+    width: 65%;
+    padding-left: 20%;
+    padding-top: 10%;
+    text-align: center;
+  }
+
+  .find-column {
+    float: left;
+    text-align: center;
+  }
+
+  .mountain-flag {
+    width: 30%;
+    text-align: center;
+  }
+  
+  .backpack-column{
+    margin-left: 5%;
+    margin-right: 5%;
+  }
